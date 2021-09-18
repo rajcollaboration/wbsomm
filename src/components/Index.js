@@ -347,8 +347,10 @@ console.log(response);
                         <Paper className={classes.paper}>
                             <Box>
 
-                                <ul>
-                                    <li style={{ listStyle: 'none', textAlign: 'start', marginBottom: '4px' }}>
+                                
+                                    <marquee direction="up" behavior="scroll" height="500px" onMouseOver={this.stop()} onMouseOut={this.start()}>
+                                    <ul>
+                                    <li style={{ listStyle: 'none', textAlign: 'justify', marginBottom: '4px' }}>
                                         ১। পৌরসভার অর্ন্তগত সমস্ত এস এস কে এম.এস.কে সমূহকে শিক্ষা দপ্তরের অর্ন্তরভূক্ত
                                         করতে হবে।
                                     </li>
@@ -380,7 +382,7 @@ console.log(response);
                                     <li style={{ listStyle: 'none', textAlign: 'start', marginBottom: '4px' }}>
                                         ৮। সমস্ত কর্মীদের ই.পি.এফ চালু করতে হবে।
                                     </li>
-                                    {/* <li style={{listStyle:'none',textAlign:'start',marginBottom:'4px'}}>
+                                    <li style={{listStyle:'none',textAlign:'start',marginBottom:'4px'}}>
                                     ৯। শিক্ষামিত্র, কম্পিউটার শিক্ষক, প্রেরক, সহপ্রেরকদের বকেয়া সাম্মানিক দ্রুত পরিশোধ
 করতে হবে।
                                     </li>
@@ -402,8 +404,10 @@ console.log(response);
                                     </li>
                                     <li style={{listStyle:'none',textAlign:'start',marginBottom:'4px'}}>
                                     ১৪। মাদ্রাসা শিক্ষা কেন্দ্রের গ্রাজুয়েট শিক্ষকদের এক হাজার টাকার বঞ্চনা দূর করতে হবে।
-                                    </li> */}
-                                </ul>
+                                    </li>
+                                    </ul>
+                                    </marquee>
+                             
 
                             </Box>
                         </Paper>
