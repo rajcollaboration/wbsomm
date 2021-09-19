@@ -348,7 +348,7 @@ console.log(response);
                             <Box>
 
                                 
-                                    <marquee direction="up" behavior="scroll" height="500px" onMouseOver={this.stop()} onMouseOut={this.start()}>
+                                    <marquee direction="up" behavior="scroll" height="500px">
                                     <ul>
                                     <li style={{ listStyle: 'none', textAlign: 'justify', marginBottom: '4px' }}>
                                         ১। পৌরসভার অর্ন্তগত সমস্ত এস এস কে এম.এস.কে সমূহকে শিক্ষা দপ্তরের অর্ন্তরভূক্ত
