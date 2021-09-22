@@ -103,9 +103,7 @@ const Pass =(e)=>{
   //   dispatch(login(response))
   // }
 
-  useEffect(()=>{
-    
-  },[])
+  
   return (
 <div className={classes.root}>
 <Header/>

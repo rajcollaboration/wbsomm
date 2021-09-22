@@ -1,48 +1,40 @@
+import image1 from '../image1.jpg';
+import image2 from '../image2.jpg'
+import image3 from '../image3.jpg'
+import image4 from '../image4.jpg'
+import image6 from '../image6.jpg'
+import image7 from '../image7.jpg'
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+      src: image2,
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+      src: image1,
       width: 1,
       height: 1
     },
     {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+      src: image3,
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+      src: image4,
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+      src: image6,
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+      src: image7,
       width: 4,
       height: 3
     },
-    // {
-    //   src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    //   width: 3,
-    //   height: 4
-    // },
-    // {
-    //   src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    //   width: 4,
-    //   height: 3
-    // },
-    // {
-    //   src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    //   width: 4,
-    //   height: 3
-    // }
+    
   ];
   
