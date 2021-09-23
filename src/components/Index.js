@@ -2,16 +2,12 @@ import React from 'react'
 import { Container, CssBaseline, Typography, Card, CardActionArea, CardMedia, Grid, Paper, Box, Button, } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormControl from '@material-ui/core/FormControl';
-import NativeSelect from '@material-ui/core/NativeSelect';
 import toImage from '../assets/images/image5.jpg'
 import PhotoGalary from './PhotoGalary'
 import SaveIcon from '@material-ui/icons/Save';
 import axios from 'axios';
 import Header from './header'
-import MenuItem from '@material-ui/core/MenuItem';
+
 
 
 
@@ -390,73 +386,73 @@ console.log(response);
                                     <marquee direction="up" behavior="scroll" height="500px">
                                     <ul>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word',marginBottom: '4px' }}>
                                         ১। পৌরসভার অর্ন্তগত সমস্ত এস এস কে এম.এস.কে সমূহকে শিক্ষা দপ্তরের অর্ন্তরভূক্ত
                                         করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word', marginBottom: '4px' }}>
                                         ২। অ্যাকাডেমিক সুপার ভাইজার ও মাদ্রাসা শিক্ষা কেন্দ্রের শিক্ষক সহ শিক্ষার সাথে যুক্ত
                                         অন্যান্য চুক্তি ভিত্তিক কর্মীদের বাৎসরিক ৩ শতাংশ ইনক্রিমেন্ট ও অবসরকালীন ৩
                                         লক্ষ টাকা প্রদানের জি.ও দ্রুত প্রকাশ করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word', marginBottom: '4px' }}>
                                         ৩। সমস্ত এস.এস কে, এম.এস.কে. কে গ্রাথমিক ও উচ্চ প্রাথমিক বিদ্যালয় হিসাবে মর্যাদা
                                         প্রদান করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word', marginBottom: '4px'}}>
                                         ৪। পার্শ্ব শিক্ষক, শিক্ষাবন্ধু, শিক্ষামিত্র, এস.এস. কে. এম.এস.কে সহ মাদ্রাসা শিক্ষা দপ্তর
                                         ও পৌরসভার অর্ন্তগত সমস্ত সহায়ক সহায়িকা সহ সমগ্ৰশিক্ষায় নিযুক্ত কর্মী ও
                                         কর্মচারীদের তাদের যোগ্যতা অনুসারে সুপ্রিমকোর্টের রায় কার্যকরী করে বেতন কাঠামো ও
                                         সমকাজে সমমজুরী প্রদান করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word', marginBottom: '4px' }}>
                                         ৫। মাদ্রাসা শিক্ষা কেন্দ্রগুলিকে বোর্ড রিকগনাইজ প্রদান করে নবম- দশম শ্রেণি চালু করতে
                                         হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word', marginBottom: '4px' }}>
                                         ৬। অবসরকালীন ভাতার ব্যবস্থা করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word', marginBottom: '4px' }}>
                                         ৭। কর্মরত অবস্থায় মারাগেলে তার পরিবারের একজনকে চাকুরী প্রদান করতে হবে।
                                     </li>
                                     <li style={{ listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px' }}>
+  textJustify: 'inter-word',  marginBottom: '4px' }}>
                                         ৮। সমস্ত কর্মীদের ই.পি.এফ চালু করতে হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word',marginBottom: '4px'}}>
                                     ৯। শিক্ষামিত্র, কম্পিউটার শিক্ষক, প্রেরক, সহপ্রেরকদের বকেয়া সাম্মানিক দ্রুত পরিশোধ
 করতে হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word',marginBottom: '4px'}}>
                                     ১০। এজেন্সী মুক্ত করে সমস্ত NSI কম্পিউটার শিক্ষক শিক্ষিকাদের সরকারি আওতায় আনতে
 হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word',marginBottom: '4px'}}>
                                     ১১। যে সমস্ত কম্পিউটার শিক্ষক ৩মাসের প্রশিক্ষণ নিয়ে বসে আছে অবিলম্বে তাদের
 অন্যান্য কম্পিউটার শিক্ষকদের মতো স্কুলে নিয়োগ করতে হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word',marginBottom: '4px'}}>
                                     ১২। NSI/NSOC শিক্ষক শিক্ষিকাদের স্থায়ীকরণ করতে হবে এবং স্থায়ী কর্মীদের যাবতীয়
 সুযোগ সুবিধা দিতে হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
+  textJustify: 'inter-word',marginBottom: '4px'}}>
                                     ১৩। সমস্ত শিক্ষা প্রতিষ্ঠানের শিক্ষক ও শিক্ষাকর্মী শূন্যপদে সচ্ছতার সহিত নিয়োগ করতে
 হবে।
                                     </li>
                                     <li style={{listStyle: 'none',textAlign: 'justify',
-  textJustify: 'inter-word', textAlign: 'justify', marginBottom: '4px'}}>
-                                    ১৪। মাদ্রাসা শিক্ষা কেন্দ্রের গ্রাজুয়েট শিক্ষকদের এক হাজার টাকার বঞ্চনা দূর করতে হবে।
+  textJustify: 'inter-word',marginBottom: '4px'}}>
+                                    ১৪। মাদ্রাসা শিক্ষা কেন্দ্রের গ্রাজুয়েট শিক্ষকদের এক হাজার টাকার বঞ্চনা দূর করতে হবে।react-images
                                     </li>
                                     </ul>
                                     </marquee>

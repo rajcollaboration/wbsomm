@@ -116,14 +116,14 @@ export default function PersistentDrawerLeft() {
   };
 const icons = [<HomeIcon/>,<AccessibilityIcon/>,<InfoIcon/>,<ContactSupportIcon/>,<SubscriptionsIcon/>];
   return (
-    <div className={classes.root,classes.mb5}>
+    <div className={classes.root }>
       <CssBaseline />
       <AppBar
         position="fixed"
         style={{backgroundColor:'#b53f3fb5'}}
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
-        })}
+        })} 
       >
         <Toolbar>
           {isMobile? <IconButton
@@ -138,7 +138,7 @@ const icons = [<HomeIcon/>,<AccessibilityIcon/>,<InfoIcon/>,<ContactSupportIcon/
            {
             !isMobile ?<> 
             <Typography variant="div" noWrap className={classes.menubarItem}>
-            <img src={Logo} style={{maxHeight:'80px'}}/>
+            <img src={Logo} style={{maxHeight:'80px'}} alt=""/>
           </Typography>
           <Typography variant="p" noWrap className={classes.menubarItem}>
             HOME
