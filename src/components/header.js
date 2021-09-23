@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/images/Logo1.png'
+import Logo from '../assets/images/Logo1.png';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -109,7 +109,7 @@ export default function PersistentDrawerLeft() {
     return(
       <Donnate/>
     )
-  }
+  };
 
   const handleDrawerClose = () => {
     setOpen(false);
